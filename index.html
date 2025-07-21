@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Randi Ko BAn
+    <header class="fb-header">
+        <div class="fb-logo">facebook</div>
+        <input class="fb-search" type="text" placeholder="Search Facebook">
+        <div class="fb-header-icons">
+            <span>🔔</span>
+            <span>💬</span>
+            <span>👤</span>
+        </div>
+    </header>
+    <div class="fb-container">
+        <nav class="fb-sidebar">
+            <ul>
+                <li>Home</li>
+                <li>Friends</li>
+                <li>Groups</li>
+                <li>Marketplace</li>
+                <li>Watch</li>
+            </ul>
+        </nav>
+        <main class="fb-feed">
+            <div class="fb-post">
+                <div class="fb-post-header">
+                    <span class="fb-avatar">👤</span>
+                    <span class="fb-username">John Doe</span>
+                </div>
+                <div class="fb-post-content">Hello, this is my first post!</div>
+            </div>
+            <div class="fb-post">
+                <div class="fb-post-header">
+                    <span class="fb-avatar">👤</span>
+                    <span class="fb-username">Jane Smith</span>
+                </div>
+                <div class="fb-post-content">Enjoying the Facebook clone demo!</div>
+            </div>
+        </main>
+        <aside class="fb-rightbar">
+            <h3>Contacts</h3>
+            <ul>
+                <li>Mike Ross</li>
+                <li>Rachel Zane</li>
+                <li>Harvey Specter</li>
+            </ul>
+        </aside>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

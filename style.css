@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+.fb-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1877f2;
+    color: #fff;
+    padding: 10px 20px;
+}
+.fb-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.fb-search {
+    padding: 7px 12px;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+}
+.fb-header-icons span {
+    margin-left: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.fb-container {
+    display: flex;
+    margin-top: 20px;
+}
+.fb-sidebar {
+    width: 200px;
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 1px 0 5px rgba(0,0,0,0.05);
+    min-height: 80vh;
+}
+.fb-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.fb-sidebar li {
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: background 0.2s;
+}
+.fb-sidebar li:hover {
+    background: #f0f2f5;
+}
+.fb-feed {
+    flex: 1;
+    padding: 0 40px;
+}
+.fb-post {
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    padding: 16px;
+}
+.fb-post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.fb-avatar {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.fb-username {
+    font-weight: bold;
+}
+.fb-rightbar {
+    width: 220px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: -1px 0 5px rgba(0,0,0,0.05);
+    min-height: 80vh;
+}
+.fb-rightbar h3 {
+    margin-top: 0;
+}
+.fb-rightbar ul {
+    list-style: none;
+    padding: 0;
+}
+.fb-rightbar li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f2f5;
+} 
